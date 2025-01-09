@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'CursedTimer';  /* Nom que vous attribuez à la police */
+    src: url('/cursedTimer.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    background-color: #1b244a;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: 'CursedTimer', sans-serif;
+    background-color: black;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F43F5E;
+    font-size: 3rem;
+    margin: auto;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 10px;
+    font-family: 'CursedTimer', sans-serif;
+    background: none;
+    color: white;
+    border: 1px, solid white;
+    border-radius: 5px;
+    height: 30px;
+}
+
+#reset {
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
